@@ -1,0 +1,17 @@
+Link p {
+    text-decoration: none;
+}
+
+.link-active {
+    color: black;
+    background: orange;
+  }
+
+  .greenyellow{
+background-color: blueviolet;
+  }
+
+  .white{
+    background-color: antiquewhite;
+
+  }
