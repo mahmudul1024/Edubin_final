@@ -35,16 +35,16 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-
+      // https://edubin1.vercel.app/
       {
         path: "/courses",
-        loader: () => fetch("http://localhost:5000/courses"),
+        loader: () => fetch("https://edubin1.vercel.app/courses"),
         element: <Courses />,
       },
       {
         path: "/courses/:id",
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/courses/${params.id}`),
+          fetch(`https://edubin1.vercel.app/courses/${params.id}`),
         element: <CourseDetails></CourseDetails>,
       },
       {
